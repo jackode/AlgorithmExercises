@@ -1,5 +1,6 @@
-package jackode.algorithm.dataStructure.stack;
+package jackode.algorithm.stack;
 
+import jackode.algorithm.stack.MinStack;
 import org.junit.Assert;
 import org.junit.Test;
 

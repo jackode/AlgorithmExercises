@@ -1,4 +1,4 @@
-package jackode.algorithm.basic.string;
+package jackode.algorithm.string;
 
 /**
  *

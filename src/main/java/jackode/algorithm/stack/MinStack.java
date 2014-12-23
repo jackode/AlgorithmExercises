@@ -1,4 +1,4 @@
-package jackode.algorithm.dataStructure.stack;
+package jackode.algorithm.stack;
 
 import java.util.EmptyStackException;
 import java.util.Stack;
