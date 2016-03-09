@@ -9,14 +9,14 @@ import org.junit.Test;
 public class MinStackTest {
     @Test
     public void testMaxStack(){
-        MinStack<Integer> minStack = new MinStack<>();
+        MinStack<Integer> minStack = new MinStack<Integer>();
         minStack.push(2);
         minStack.push(3);
         minStack.push(4);
         minStack.push(1);
-        Assert.assertEquals(1, minStack.min().intValue());
+        Assert.assertEquals(1, minStack.getMin().intValue());
         Assert.assertEquals(1, minStack.pop().intValue());
-        Assert.assertEquals(2, minStack.min().intValue());
+        Assert.assertEquals(2, minStack.getMin().intValue());
     }
 
 }

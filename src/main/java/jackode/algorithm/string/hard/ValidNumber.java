@@ -1,4 +1,4 @@
-package jackode.algorithm.string;
+package jackode.algorithm.string.hard;
 
 /**
  *
@@ -59,14 +59,10 @@ public class ValidNumber {
     }
 
     private boolean isDigit(char c){
-        if (c <= '9' && c >= '0')
-            return true;
-        return false;
+        return c <= '9' && c >= '0';
     }
 
     private boolean isValidCharacter(char c){
-        if (SPECIAL_VALID_CHARACTERS.contains("" + c) || isDigit(c))
-            return true;
-        return false;
+        return SPECIAL_VALID_CHARACTERS.contains("" + c) || isDigit(c);
     }
 }
